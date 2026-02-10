@@ -13,6 +13,13 @@
 #include "irrigation.h"
 
 /**
+ * @brief 设置当前数据指针（由主程序调用）
+ * @param data 传感器数据指针
+ * @param state 灌溉状态指针
+ */
+void network_set_data(SensorData* data, IrrigationState* state);
+
+/**
  * @brief 初始化WiFi连接
  */
 void network_init();

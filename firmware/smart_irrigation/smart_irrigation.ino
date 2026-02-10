@@ -51,7 +51,6 @@ void setup() {
     network_init();
     
     // 设置网络模块的数据指针
-    extern void network_set_data(SensorData*, IrrigationState*);
     network_set_data(&sensorData, &irrigationState);
     
     Serial.println("\n系统初始化完成！");
