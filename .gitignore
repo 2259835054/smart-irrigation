@@ -1,0 +1,35 @@
+# PlatformIO
+.pio/
+.vscode/
+.clang_complete
+.gcc-flags.json
+
+# Build artifacts
+build/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+
+# IDE
+.idea/
+*.iml
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Arduino
+*.hex
+*.eep
+*.lss
+*.sym
