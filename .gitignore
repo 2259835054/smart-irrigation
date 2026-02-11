@@ -1,0 +1,35 @@
+# PlatformIO
+.pio/
+.vscode/
+build/
+.pioenvs/
+.piolibdeps/
+
+# Build artifacts
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE
+.idea/
+*.sublime-*
+
+# LittleFS files (generated at runtime)
+data/
